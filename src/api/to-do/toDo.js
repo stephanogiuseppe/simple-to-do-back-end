@@ -18,4 +18,4 @@ const schema = {
 }
 const toDoSchema = new mongoose.Schema(schema)
 
-module.exports = resful.model(modelName, toDoSchema)
+module.exports = restful.model(modelName, toDoSchema)
